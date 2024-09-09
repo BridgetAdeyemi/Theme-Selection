@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch Statement Project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="page-heading">DOM Manipulation Scenarios</h1>
+    <div class="page-container">
+      <!-- Theme Selection -->
+      <section class="theme">
+        <h2>Theme Selection</h2>
+        <select id="theme-select">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <option value="blue">Blue</option>
+        </select>
+        <div id="theme-message"></div>
+      </section>
+
+      <!-- Form Validation -->
+      <section class="form-validate">
+        <h2>Form Validation</h2>
+        <form id="validation-form">
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username" /><br /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="password">Password:</label><br />
+          <input type="password" id="password" name="password" /><br /><br />
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+        <div id="validation-response"></div>
+      </section>
+
+      <!-- Weather Conditions -->
+      <section class="weather">
+        <h2>Weather Conditions</h2>
+        <select id="weather-select">
+          <option value="sunny">Sunny</option>
+          <option value="rainy">Rainy</option>
+          <option value="snowy">Snowy</option>
+          <option value="cloudy">Cloudy</option>
+        </select>
+        <div id="weather-description"></div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

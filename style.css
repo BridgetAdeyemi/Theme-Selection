@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: monospace;
+}
+body h1 {
+  padding-top: 4rem;
+}
+
+section {
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.theme-light {
+  background-color: #fff;
+  color: #000;
+}
+.theme-dark {
+  background-color: #000;
+  color: #fff;
+}
+.theme-blue {
+  background-color: rgb(7, 110, 212);
+  color: #fff;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+select {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+label {
+  font-size: 1.8rem;
+  font-family: cursive;
+}
+
+input {
+  padding: 0.8rem 2.5rem;
+}
+
+#submit {
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+}
+
+#submit:hover {
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
+}
+
+#theme-message,
+#validation-response,
+#weather-description {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-family: cursive;
+  font-weight: 600;
+}
