@@ -17,6 +17,9 @@ The purpose of this project is to practice using JavaScript to manipulate the DO
   
 **How to Use the Project**   
 - Open the index.html file in a browser.    
-- Click on any of the theme buttons to change the background color of the page.  
+- Click on any of the theme buttons to change the background color of the page.
+
+**Live Demo**     
+Checkout the live version of the project here  
   
   
